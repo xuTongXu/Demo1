@@ -11,6 +11,7 @@ public class UserController {
         System.out.println("sasasasasas"+name);
         model.addAttribute("name",name);
         System.out.println("123456789");
+        System.out.println("asasas");
         return "one";
     }
 }
