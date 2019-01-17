@@ -10,6 +10,7 @@ public class UserController {
     public String test(String name, Model model) {
         System.out.println("sasasasasas"+name);
         model.addAttribute("name",name);
+        System.out.println("123456789");
         return "one";
     }
 }
